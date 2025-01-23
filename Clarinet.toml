@@ -10,8 +10,13 @@ path = 'contracts/entangled-pair-management.clar'
 clarity_version = 2
 epoch = 2.5
 
-[contracts.message-encoding]
-path = 'contracts/message-encoding.clar'
+[contracts.network-node-operations]
+path = 'contracts/network-node-operations.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.quantum-channel-nft]
+path = 'contracts/quantum-channel-nft.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
